@@ -1,0 +1,214 @@
+/* ======================================
+
+Template Name: TINYONE
+Template URI: G:\New Tutorial\WD\UY Lab\Files\01-Basic PSD
+Author: Dedarul Hasan
+Author URI: https://www.facebook.com/WhiteDevil2k/
+Version: 1.0
+Description: An awesome personal blog template.
+Support: mddedarulhasan@gmail.com
+
+========================================*/
+
+/* ======================================
+
+CSS INDEX
+---------
+1. Google Fonts
+2. Common Css
+3. Reusable
+4. Navbar Css
+5. Slider Css
+6. Feature Css
+7. Subscription Css
+8. Footer Css
+
+========================================*/
+/*==================================== 
+            1. Google Font Css
+====================================*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+
+/*==================================== 
+            2. Common Css
+====================================*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    line-height: 1.2;
+    font-family: 'PT Sans', sans-serif;
+}
+ul,ol{
+    list-style-type: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+/*==================================== 
+        3. Reusable Css Start
+====================================*/
+.common_header_title h2{
+    font-weight: 700;
+    font-size: 28px;
+    text-transform: capitalize;
+}
+.common_under_headertext h6{
+    color: #313841;   
+    font-size: 17px;
+    padding: 10px 0;
+}
+
+/*==================================== 
+        4. Navbar Css Start
+====================================*/
+.bg-light {
+	background-color: #fcdb00 !important;
+}
+.navbar{
+    text-align: center;
+    padding-top: 30px;
+}
+.navbar-nav .nav-item {
+    padding: 0 35px;
+}
+.navbar-nav .nav-item .nav-link{
+	font-weight: 700;
+    font-size: 18px;
+    color: #000;
+}
+
+/*==================================== 
+        5. Slider Css Start
+====================================*/
+.slider{
+    background-color: #fcdb00;
+    padding-bottom: 80px;
+}
+.slider_content{
+    padding-top: 90px;
+}
+.slider_content p{
+    color: #555;
+    font-size: 16px;
+}
+.iphone_design {
+	position: relative;
+	padding-top: 30px;
+	padding-left: 145px;
+}
+.iphone_logo {
+	position: absolute;
+	top: 50%;
+	left: 44%;
+}
+.slider_content ul {
+	padding: 0;
+	padding-top: 30px;
+}
+
+/*==================================== 
+        6. Feature Css Start
+====================================*/
+.feature{
+    margin-bottom: 50px;
+}
+.feature_content{
+    text-align: center;
+    padding: 100px 0;
+}
+.feature_icon{
+    position: relative;
+    padding-bottom: 100px;
+}
+.icon_content{
+    position: absolute;
+    left: 20%;
+    top: 0;
+}
+.icon_content p{
+    color: #898989;
+}
+
+/*==================================== 
+        7. Subscription Css Start
+====================================*/
+.subscription{
+    background: #010101;
+}
+.subscription_text{
+    text-align: center;
+    color: #fcdb00;
+    padding-top: 100px;
+}
+.xcolor{
+    color: #898989;
+}
+.subscription_input{
+    padding-left: 335px;
+    padding-bottom: 40px;
+}
+.subscription_input input:focus{
+    box-shadow: 0 0 0;
+    border-color: #fff;
+}
+.submit_btn button{
+    padding: 7px 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.sub_icon{
+    text-align: center;
+}
+.sub_icon ul{
+    display: flex;
+    justify-content: center;
+}
+.sub_icon ul li{
+    padding-right: 30px;
+}
+.sub_icon ul li a {
+	font-size: 30px;
+	background-color: #fcdb00;
+	width: 50px;
+	height: 50px;
+	display: block;
+	line-height: 50px;
+	border-radius: 20%;
+}
+.sub_icon ul li a i{
+	color: #000;
+}
+/* .sub_icon ul li a:hover {
+    background-color: #fff;
+    color: #fcdb00;
+} */
+
+
+/*==================================== 
+        8. Footer Css Start
+====================================*/
+#footer{
+    padding: 130px 0;
+    background-color: #010101;
+}
+.footer_address{
+    color: #fff;
+}
+.f_footer_menu{
+    display: flex;
+}
+.f_footer_menu ul li a:hover{
+    color: #fcdb00;
+}
+.f_footer_menu ul li a{
+    color: #fff;
+}
+.f_footer_menu ul li{
+    padding: 0 0 10px 40px;
+}
